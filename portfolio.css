@@ -1,0 +1,133 @@
+/* portfolio.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header .profile img {
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 0.5em 0;
+}
+
+header .nav {
+    margin-top: 1em;
+}
+
+header .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header .nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
+
+.project-list dt {
+    font-weight: bold;
+}
+
+.project-list dd {
+    margin: 10px 0 20px;
+}
+
+.project-list a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-list a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="Ankit_Thakurathi_Phot.JPG" width="100" height="100" alt="Ankit Profile Picture">
+        </div>
+        <h1>My Portfolio</h1>
+            <div class=nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#project">Project</a>                    
+                <a href="#contact">Contact Me</a>
+            </div>
+    </header>
+    <main>
+        <section id = 'about' class="about">
+            <h3>About</h3>
+            <p>A professional web developer having experience in creating beautiful and functional websites. My expertise lies in HTML, CSS, JavaScript, and various web development frameworks.
+            </p>
+        </section>
+        <section id = 'education' class="education">
+            <h3>Education</h3>
+            <ul>
+                <li>Pursuing Master of Computer Application from Manipal University, Jaipur.</li>
+                <li>Completed Bachelor of science in Computer Science from Invertis University, Bareilly.</li>
+            </ul>
+        </section>
+        <section id ="project" class="project">
+            <h3>Projects</h3>
+            <div class="project-list">
+                <dl>
+                    <dt><strong>Amazon Website Clone</strong></dt>
+                    <dd>Amazon is one of the largest e-commerce sites. This project was made utilizing HTML and CSS technology to make an Amazon clone website. <br><a href="https://github.com/Ankithakur01/Amazon_Clone" target="_blank">Click here to visit</a></dd>
+                    
+                    <dt><strong>Rock Paper Scissor</strong></dt>
+                    <dd> Rock paper Scissor is a simple hand game usually played between two people, in which each player simultaneously forms one of three shapes with their hand. Here the player will play against the computer. <br><a href="https://github.com/Ankithakur01/Rock_Paper_Scissor_game" target="_blank">Click here to visit</a></dd>
+                    
+                    <dt><strong>Tic Tac Toe</strong></dt>
+                    <dd>Tic Tac Toe, also known as Noughts and Crosses, is a simple and popular two-player game that is frequently used to teach good sportsmanship and strategic thinking. It is played on a 3x3 grid, with each player taking turns using their symbol (either "X" or "O").<br><a href="https://github.com/Ankithakur01/Tic_Tac_Toe" target="_blank">Click here to visit</a></dd>
+                </dl>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
